@@ -7,7 +7,7 @@ export const cursos = [
     {
         materia: 'TypeScript',
         dificultad: 7,
-        promedrequiereio: 'JavaScript'
+        requiere: 'JavaScript'
     },
     {
         materia: 'Angular',

@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TablaCursosComponent } from './tabla-cursos/tabla-cursos.component';
-import { TablaAlumnosComponent } from './tabla-alumnos/tabla-alumnos.component';
+import { TablaCursosComponent } from './components/tabla-cursos/tabla-cursos.component';
+import { TablaAlumnosComponent } from './components/tabla-alumnos/tabla-alumnos.component';
 
 @NgModule({
   declarations: [

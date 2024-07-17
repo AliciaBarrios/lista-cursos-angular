@@ -8,10 +8,10 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>materia</td>
-            <td>dificultad</td>
-            <td>requiere</td>
+        <tr *ngFor ="let curso of cursos">
+            <td>{{ curso.materia }}</td>
+            <td>{{ curso.dificultad }}</td>
+            <td>{{ curso.requiere }}</td>
         </tr>
     </tbody>
 </table>
